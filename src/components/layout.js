@@ -10,7 +10,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import Header from "./header";
 import "./layout.css";
 import { useState } from "react";
-// ... other imports for Background and SliderButton
+
 
 
 const Layout = ({ children, aboutRef, projectRef , contactRef, theme, toggleTheme}) => {
